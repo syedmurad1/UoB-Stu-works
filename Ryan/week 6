@@ -1,3 +1,4 @@
+question2
 numbers = [3,7,2,9,4,1,8]
 numbers.append(5)
 print(numbers)
@@ -10,3 +11,9 @@ print(numbers)
 numbers.insert(2,6)
 print(numbers)
 print(numbers.index(4))
+qusetion3
+my_tuple=(15,"Python",3.14,True,42,False)
+print(my_tuple.index("Python"))
+print(my_tuple.count(True))
+print(my_tuple[2:4])
+qusetion4
