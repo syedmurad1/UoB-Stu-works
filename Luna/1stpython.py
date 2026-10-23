@@ -28,10 +28,4 @@ x = datetime.datetime.now()
 print(x)
 '''
 
-from turtle import color
-import turtle
-turtle.color("red")
-turtle.color("blue")
-turtle.color("green")
-turtle.done()
 
