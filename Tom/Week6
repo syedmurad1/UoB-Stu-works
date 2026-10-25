@@ -1,0 +1,79 @@
+'''numbers = [3,7,2,9,4,1,8]
+numbers.append(5)
+print(numbers)
+numbers.remove(9)
+numbers.sort()
+print(numbers)
+numbers.reverse()
+print(numbers)
+numbers.insert(2,6)
+print(numbers)
+numbers.index(4)
+print(numbers.index(4)) '''
+
+'''my_tuple = (15, "Python", 3.14, True, 42, False)
+print(my_tuple.index("Python"))
+print(my_tuple.count(True))
+print(my_tuple[1:5])'''
+
+'''student_marks = {
+    "Alice": 85,
+    "Bob": 72,
+    "Charlie": 90,
+    "David": 68,
+    "Emma": 95,
+    "Fiona": 78,
+    "George": 82,
+    "Hannah": 88,
+    "Ian": 74,
+    "Jack": 91,
+    "Karen": 80,
+    "Liam": 76,
+    "Mary": 93,
+    "Nathan": 69,
+    "Olivia": 87
+}
+
+student_marks["Frank"] = 60
+
+for student, mark in student_marks.items():
+    print(student, ":", mark)'''
+
+
+'''
+numbers = [1, 2, 3]
+numbers.append(4)
+print(numbers)
+
+student = {"name": "Alice", "mark": 85}
+student["mark"] = 90
+print(student)
+
+name = "Python"
+name = name + " Programming"
+print(name)
+
+my_tuple = (1, 2, 3)
+print(my_tuple)'''
+
+
+'''
+university = "University of Bristol"
+counter = 0
+
+def greet():
+    message = "Hello, student!"
+    print(message)
+
+def display_university():
+    print(university)
+
+def increase_counter():
+    global counter
+    counter = counter + 1
+
+greet()
+display_university()
+increase_counter()
+print(counter)'''
+
