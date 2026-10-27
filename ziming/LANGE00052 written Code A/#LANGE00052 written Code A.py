@@ -9,24 +9,23 @@ from datetime import datetime  #used to get the current system time
 student_id = input("Enter your student ID :")
 first_name = input("Enter your first name :")
 last_name = input("Enter your last name :")
-# Read the four test marks and convert them from strings to integers
+# Read the four test marks and convert them from strings to integers and check
 mark1 = int(input("Enter test mark1:"))
+while mark1<0 or mark1>100:
+    print("This mark is out of range (0-100),try again .")
+    mark1=int(input("Enter mark1 again"))
 mark2 = int(input("Enter test mark2:"))
+while mark2<0 or mark2>100:
+    print("This mark is out of range (0-100) .")
+    mark2=int(input("Enter mark2 again"))
 mark3 = int(input("Enter test mark3:"))
+while mark3<0 or mark3>100:
+    print("This mark is out of range (0-100).")
+    mark3=int(input("Enter mark3 again"))
 mark4 = int(input("Enter test mark4:")) 
-# Check if the marks in the range
-if mark1<0 or mark1>100:
-    print("This mark is out of range (0-100) program end.")
-    exit()
-if mark2<0 or mark2>100:
-    print("This mark is out of range (0-100) program end.")
-    exit()
-if mark3<0 or mark3>100:
-    print("This mark is out of range (0-100) program end.")
-    exit()
-if mark4<0 or mark4>100:
-    print("This mark is out of range (0-100) program end.")
-    exit()
+while mark4<0 or mark4>100:
+    print("This mark is out of range (0-100) .")
+    mark4=int(input("Enter mark4 again"))
 # Greeting based on the current time
 hour = datetime.now().hour # current hour
 if hour < 12:
