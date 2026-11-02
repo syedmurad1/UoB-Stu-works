@@ -1,0 +1,6 @@
+print('My','name','is','king' , sep='$$')
+
+
+
+num= 5.26459884
+print(f"{num:.2f}")
