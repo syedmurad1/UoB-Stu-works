@@ -1,0 +1,15 @@
+print("My", "Name", "Is", "King", sep='$$')
+
+str1, str2, str3= input('Enter Three Names: ').split()
+print("Name1:" + str1)
+print("Name2:" + str2)
+print("Name3:" + str3)
+
+num = 3.14159
+result = round(num, 2)
+print(result)
+
+year = 2023
+quantity = 3
+price = 450
+print(f" I have bought {quantity} footballs for {price:.2f} £ , in the year {year}.")
