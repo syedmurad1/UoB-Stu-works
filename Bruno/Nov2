@@ -1,0 +1,19 @@
+print("My$$Name$$Is$$King")
+
+year = 2023
+quantity = 3
+price = 450
+
+print(f"I have bought", quantity,"footballs for", price,"$, in the year", year)
+
+number=float(5.26549)
+print(f"{number:.2f}")
+
+Studentlist = {}
+
+Studentlist = input("Enter three names? ").split()
+
+print("Name1:", Studentlist[0])
+print("Name2:", Studentlist[1])
+print("Name3:", Studentlist[2])
+
