@@ -1,0 +1,12 @@
+p1,p2,p3,p4,p5,p6,p7,p8,p9,p10="5.26459884"
+print(p1,p2,p3,p4)
+
+n=5.26459884
+print(f"{n:.2f}")
+
+
+y=input("year=") 
+q=input("quantity=") 
+p=float(input("price="))
+print(f"I have bought {q} footballs for{p:.2f} $ , in yeare{y}")
+
