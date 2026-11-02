@@ -1,0 +1,35 @@
+# question 2
+list = [3,7,2,9,4,1,8]
+list.append(5) 
+list.remove(9)
+list.sort()
+list.reverse()
+list.insert(2,6)
+print(list.index(4))
+
+# question 3
+tuple = (15,'Python',3.14,True,42,False)
+print(tuple.index('Python'))
+print(tuple.count(True))
+print(tuple[1:4])
+
+# question 4
+scores = {
+    "studen1": 70,
+    'studen2': 67,
+    "studen3": 56,
+    "studen4": 45,
+    'studen5': 34,
+    'studen6': 50,
+    'studen7': 44,
+    'studen8': 81,
+    'studen9': 64,
+    "studen10": 34,
+    'studen11': 89,
+    "studen12": 66,
+    'studen13': 55,
+    "studen14": 77,
+    'studen15': 44
+}
+scores['Frank'] = 60
+print(scores)
