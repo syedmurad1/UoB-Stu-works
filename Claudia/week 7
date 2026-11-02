@@ -1,44 +1,44 @@
-# qution 1
+# question 1
 print('My', 'Name', 'is', 'King', sep = "$$")
 
-# qution 2
+# question 2
 user_input = input('Enter three Names:')
 name = list(user_input.split( ))
 print('Name1:', name[0])
 print('Name2:', name[1])
 print('Name3:', name[2])
 
-# qution 3
+# question 3
 print(round(5.26459884,2))
 
-# qution 4
+# question 4
 year = 2023
 quantity = 3
 price = 450
 print(f'I have bought {quantity} footballs for {price:.2f} £, in the year {year}. ')
 
-# qution 5
+# question 5
 sentence = ['I', 'have', 'bought', 3, 'footballs', 'for', 450.00, ',', 'in', 'the', 'year', 2023,'.']
 first_character = sentence[0]
 print(first_character)
 
-# qution 6
+# question 6
 sentence = ['I', 'have', 'bought', 3, 'footballs', '.']
 print(len(sentence))
 
-# qution 7
+# question 7
 import datetime
 print(datetime.date.today())
 
-# qution 8
+# question 8
 import random
 print(random.randint(1,100))
 
-# qution 9
+# question 9
 import random
 x, y = input("Enter two numbers").split()
 print(random.randint(int(x),int(y)))
 
-# qution 10
+# question 10
 a, b = input("Enter two numbers").split()
 print(int(a)+int(b))
