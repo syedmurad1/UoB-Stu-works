@@ -1,0 +1,14 @@
+print("My","Name","is","King",sep="***")
+
+name1,name2,name3=input("Please enter your name:").split()
+print("name1:",name1)
+print("name2:",name2)
+print("name3:",name3)
+
+number=5.26459884
+print("The number is: {:.2f}".format(number))
+
+year=2023
+quantity=3
+price=450
+print("I have bought {} footballs for {}$, in the year{}".format(quantity, price, year))
