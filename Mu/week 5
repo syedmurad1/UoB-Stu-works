@@ -1,0 +1,22 @@
+list=[3,7,2,9,4,1,8]
+list.append(5)  
+list.remove(9)  #删除序列中第一个出现的9
+list.sort()  #正序排列
+list.sort(reverse=True)  #倒序排列
+list.insert(2,6)   #在index 2的位置插入6
+print(list.index(4))  #打印数字四所在的位置
+
+
+
+
+my_tuple = (15, "Python", 3.14, True, 42, False)
+print(my_tuple.index("Python"))
+print(my_tuple.count(True))  #打印True在元组中出现的次数
+print(my_tuple[1:4])   #打印元组中index1到index3的元素
+
+
+
+
+dictionary_student={ "1":"50", "2":"60", "3":"70", "4":"80", "5":"90", "6":"100", "7":"90", "8":"80", "9":"70", "10":"60", "11":"50", "12":"40", "13":"30", "14":"20", "15":"10"}
+dictionary_student["Frank"] = "60"
+print(dictionary_student)
