@@ -1,0 +1,39 @@
+# 2965073
+# 1 Use the print () function to display the $$ separator between each string
+print("My", "name", "is", "King", sep = "$$")
+# 2  three names as input from a user in the single input() function call
+stu_name = input("Enter three names: ").split()
+print(f"Name: {stu_name[0]}\nName: {stu_name[1]}\nName: {stu_name[2]}")
+# 3
+number_q3 = float(5.26459884)
+print(f"{number_q3: .2f}")
+# 4  use f-strings method to format the following
+people = input("Enter year, quantity, and price: ").split()
+print(f"I have bought {people[1]} footballs for {people[2]}, in the year {people[0]}.")
+# 5  Get the first character from the following sentence
+q5 = "I have bought 3 footballs for 450.00, in the year 2023."
+print(q5[0])
+# 6  Get the length of the following sentence
+q6 = "I have bought 3 footballs."
+print(len(q6))
+# 6-2 (if no space and dot)
+count = 0
+for char in q6:
+    if char.isalnum():
+# char = character, isalnum = alphanumeric(letter or number)
+        count += 1
+print(count)
+# 7  Get the current date using today ().
+import datetime
+q7 = datetime.date.today()
+# find today in date(day)
+print(q7)
+# 8 Generate a random number between 1 and 100.
+import random
+print(random.randint(1, 100))
+# 9  two numbers as input from a user and generate a random number
+num_a, num_b = map(int, input("Two number: ").split())
+print(random.randint(num_a,num_b))
+# 10 two numbers as input from a user and program should add those two numbers and display
+add_a, add_b = map(int,input("Two numbers: ").split())
+print(str(add_a + add_b))
