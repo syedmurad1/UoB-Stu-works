@@ -1,3 +1,6 @@
+import random
+import datetime 
+
 print("My$$Name$$Is$$King")
 
 year = 2023
@@ -8,6 +11,24 @@ print(f"I have bought", quantity,"footballs for", price,"$, in the year", year)
 
 number=float(5.26549)
 print(f"{number:.2f}")
+
+sentence = "I have bought 3 footballs for 350$"
+
+print(sentence[0])
+
+print(datetime.date.today())
+
+print(len("I have bough 3 footballs."))
+
+print(random.randint(1,100))
+
+print("--Enter two numbers--")
+X = int(input("Number One"))
+Y = int(input("Number Two"))
+
+print(random.randint(X,Y))
+
+print(X + Y)
 
 Studentlist = {}
 
