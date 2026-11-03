@@ -1,0 +1,27 @@
+print("My name is Paul.")
+print("I am a student.")
+print("I like playing badminton.")
+print("I enjoy learning Python.")
+print("I like playing video games.")
+print("I want to travel around the world.")
+
+name = "Tom"
+status = "I am a student."
+hobby1 = "I like playing badminton."
+hobby2 = "I enjoy learning Python."
+hobby3 = "I like playing video games."
+dream = "I want to travel around the world."
+print("My name is", name)
+print(status)
+print(hobby1)
+print(hobby2)
+print(hobby3)
+print(dream)
+
+print("Hello World!")
+print("Welcome to my Python Programming!")
+print('Albert Einstein said "Imagination is more important than knowledge. Knowledge is limited. Imagination encircles the world."')
+print("Tom said, “I have always liked to hear 'I am the best' as often as possible”.")
+
+import timedate
+print(timedate.get_time())
