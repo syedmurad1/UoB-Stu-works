@@ -1,0 +1,61 @@
+"""Game = input("Plasss enter ur belove game:  ")
+str(Game)
+print(Game)
+
+AGE = int(input("AGE:  "))
+print(AGE)
+str(AGE)
+print(AGE)"""
+
+#1
+"""print("MY","NAME","IS","KING",sep="$$")
+"""
+
+#2
+""""GG = [input("name1: "),input("name2: "),input("name3: ")] this one is quite too long
+print(GG)"""
+#print("for example to put the name:TOM,BOMB,GASOY") #just to be example
+"""print(f"name1 = {name1}")
+print(f"name2 = {name2}")
+print(f"name3 = {name3}")"""
+"""name1, name2, name3 = input("Enter 3 names: ").split(",") #another one :D
+print(f"name1 = {name1}\nname2 = {name2}\nname3 = {name3}")"""
+
+#3
+"""X = 5.26459884
+print(X)
+print(f"{X:.2f}") #this is to round the number to 2 decimal places"""
+
+#4 and 5
+"""print("to enter the year, quantity, and price, please use the format: year,quantity,price")
+Year, quantity, price = input("Enter year, quantity, and price: ").split(",")
+print(f"I have {quantity} footballs for {price} pounds,in this year {Year}.")
+print(f"First character is: {Year[0]},{quantity[0]},{price[0]}")
+print(len(Year),len(quantity),len(price))"""
+
+#6
+"""sentence = "I have bought 3 footballs."
+print(len(sentence))"""
+
+#7
+"""import datetime
+today = datetime.date.today()
+print(today)"""
+
+#8
+"""import random
+number = random.randint(1, 100)
+print(number)"""
+
+#9
+"""import random
+num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
+number = random.randint(num1, num2)
+print("Random number =", number)"""
+
+#10
+"""num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
+total = num1 + num2
+print("Total =", total)"""
