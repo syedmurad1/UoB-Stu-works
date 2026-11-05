@@ -1,79 +1,62 @@
-'''numbers = [3,7,2,9,4,1,8]
-numbers.append(5)
-print(numbers)
-numbers.remove(9)
-numbers.sort()
-print(numbers)
-numbers.reverse()
-print(numbers)
-numbers.insert(2,6)
-print(numbers)
-numbers.index(4)
-print(numbers.index(4)) '''
+"""Game = input("Plasss enter ur belove game:  ")
+str(Game)
+print(Game)
 
-'''my_tuple = (15, "Python", 3.14, True, 42, False)
-print(my_tuple.index("Python"))
-print(my_tuple.count(True))
-print(my_tuple[1:5])'''
+AGE = int(input("AGE:  "))
+print(AGE)
+str(AGE)
+print(AGE)"""
 
-'''student_marks = {
-    "Alice": 85,
-    "Bob": 72,
-    "Charlie": 90,
-    "David": 68,
-    "Emma": 95,
-    "Fiona": 78,
-    "George": 82,
-    "Hannah": 88,
-    "Ian": 74,
-    "Jack": 91,
-    "Karen": 80,
-    "Liam": 76,
-    "Mary": 93,
-    "Nathan": 69,
-    "Olivia": 87
-}
-
-student_marks["Frank"] = 60
-
-for student, mark in student_marks.items():
-    print(student, ":", mark)'''
+#1
+"""print("MY","NAME","IS","KING",sep="$$")"""
 
 
-'''
-numbers = [1, 2, 3]
-numbers.append(4)
-print(numbers)
+#2
+"""GG = [input("name1: "),input("name2: "),input("name3: ")] #this one is quite too long
+print(GG)
+print("for example to put the name:TOM,BOMB,GASOY") #just to be example
+print(f"name1 = {GG[0]}")
+print(f"name2 = {GG[1]}")
+print(f"name3 = {GG[2]}")"""
+# i accidently found another way :>
+"""name1, name2, name3 = input("Enter 3 names: ").split(",") #another one :D
+print(f"name1 = {name1}\nname2 = {name2}\nname3 = {name3}")"""
 
-student = {"name": "Alice", "mark": 85}
-student["mark"] = 90
-print(student)
+#3
+"""X = 5.26459884
+print(X)
+print(f"{X:.2f}")""" #this is to round the number to 2 decimal places"""
 
-name = "Python"
-name = name + " Programming"
-print(name)
+#4 and 5
+print("to enter the year, quantity, and price, please use the format: year,quantity,price")
+Year, quantity, price = input("Enter year, quantity, and price: ").split(",")
+print(f"I have {quantity} footballs for {price} pounds,in this year {Year}.")
+print(f"First character is: {Year[0]},{quantity[0]},{price[0]}")
+print(len(Year),len(quantity),len(price))
 
-my_tuple = (1, 2, 3)
-print(my_tuple)'''
+#6
+"""sentence = "I have bought 3 footballs."
+print(len(sentence))"""
 
+#7
+"""import datetime
+today = datetime.date.today()
+print(today)"""
 
-'''
-university = "University of Bristol"
-counter = 0
+#8
+"""import random
+number = random.randint(1, 100)
+print(number)"""
 
-def greet():
-    message = "Hello, student!"
-    print(message)
+#9
+"""import random
+num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
+number = random.randint(num1, num2)
+print("Random number =", number)"""
 
-def display_university():
-    print(university)
-
-def increase_counter():
-    global counter
-    counter = counter + 1
-
-greet()
-display_university()
-increase_counter()
-print(counter)'''
-
+#10
+"""num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
+total = num1 + num2
+print("Total =", total)"""
