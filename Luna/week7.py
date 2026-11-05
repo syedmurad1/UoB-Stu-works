@@ -6,11 +6,15 @@ print(f"Your favorite game is {favgame}")
 #This can be use to show that u know
 '''
 
-#First task
+#First task Use the print () function to display the $$ separator between each string. Expected Output: My$$Name$$Is$$King
 print("My","Name","Is","King",sep="$$")
 
 
-#second task
+#second task Write a program to take three names as input from a user in the single input() function call and 
+#Expected Output:Enter three Names: Ali Syed Tom
+#Name1: Ali
+#Name2: Syed
+#Name3: Tom
 name1,name2,name3 = input("Please enter three name: ").split()
 print("\nName1:"+ name1,"\nName2:"+ name2,"\nName3:"+ name3)
 
