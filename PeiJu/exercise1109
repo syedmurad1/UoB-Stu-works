@@ -1,0 +1,52 @@
+# UID: 2965073
+# exercise_1
+import math
+
+x = input("enter x: ")
+
+try:
+    number = float(x)
+    if not math.isfinite(number):
+        print("x is not a number.")
+    # check float(x) is not "nan" or infinity
+    elif number > 0:
+        print("x is a positive number.")
+    elif number == 0:
+        print("x is zero.")
+    else:
+        print("x is a negative number.")
+
+except ValueError:
+    print("x is not a number.")
+
+# exercise_2
+mark = input("Enter your score: ")
+try:
+    score = float(mark)
+    # check the enter is a number(include not integer)
+    if 100 >= score >= 70:
+        print("1st")
+    elif 70 > score >= 60:
+        print("2.1")
+    elif 60 > score >= 50:
+        print("2.2")
+    elif 50 > score >= 40:
+        print("3rd")
+    elif 40 > score >=0:
+        print("F")
+    else:
+        print("Your score is not possible, please try again.")
+    # numbers that > 100, < 0, or is nan will be here
+
+except ValueError:
+    print("Your score is not a number, please try again.")
+# if enter is not number
+
+# exercise_3
+year = int(input("Enter the year: "))
+if year % 4 == 0 and year % 100 != 0:
+    print("It is a leap year.")
+elif year % 400 == 0:
+    print("It is a leap year.")
+else:
+    print("It is not a leap year.")
